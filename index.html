@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Javier L, Software Developer Student based in Spain.">
+  <title>Javier L — Software Developer Student</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header" id="top">
+    <a class="site-header__logo" href="#top" aria-label="Javier L, back to top">Javier L</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+
+    <nav class="site-nav" id="main-nav" aria-label="Main navigation">
+      <ul class="site-nav__list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <h1 class="hero__title" id="hero-title">Software Developer Student</h1>
+      <p class="hero__location">Based in Spain</p>
+      <a class="hero__scroll" href="#work" aria-label="Scroll down to work section">
+        <span>Scroll</span>
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- WORK -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <h2 class="section__title" id="work-title">Work</h2>
+
+      <ol class="work__list">
+
+        <li class="work__item">
+          <article>
+            <h3 class="work__heading">
+              <button class="work__toggle" type="button" aria-expanded="false" aria-controls="work-details-1">
+                <span class="work__year">2026</span>
+                <span class="work__role">Full Stack Developer — Marisma Biomed</span>
+                <span class="work__type">Internship</span>
+                <span class="work__dates">Mar 2026 – Jun 2026</span>
+                <span class="work__mode">Remote</span>
+              </button>
+            </h3>
+            <div class="work__details" id="work-details-1" hidden>
+              <ul class="work__summary">
+                <li>Contributed to the backend of an enterprise ERP system, building REST APIs with Node.js and Express on MySQL / MariaDB.</li>
+                <li>Worked on authentication, sessions and account recovery.</li>
+                <li>Developed an independent traceability microservice with Java 17, Spring Boot and MongoDB, applying Hexagonal Architecture (Ports and Adapters).</li>
+              </ul>
+              <p class="work__tech">Node.js · Express · MySQL · MariaDB · Java · Spring Boot · MongoDB</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="work__item">
+          <article>
+            <h3 class="work__heading">
+              <button class="work__toggle" type="button" aria-expanded="false" aria-controls="work-details-2">
+                <span class="work__year">2025 – 2026</span>
+                <span class="work__role">Web Developer — CrazyGames</span>
+                <span class="work__type">Freelance</span>
+                <span class="work__dates">Mar 2025 – May 2026</span>
+                <span class="work__mode">Remote</span>
+              </button>
+            </h3>
+            <div class="work__details" id="work-details-2" hidden>
+              <ul class="work__summary">
+                <li>Developed browser-based games with JavaScript, HTML5 and CSS3.</li>
+                <li>Worked on game logic, state machines and grid-based mechanics.</li>
+                <li>Focused on web performance and browser deployment.</li>
+              </ul>
+              <p class="work__tech">JavaScript · HTML5 · CSS3</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="work__item">
+          <article>
+            <h3 class="work__heading">
+              <button class="work__toggle" type="button" aria-expanded="false" aria-controls="work-details-3">
+                <span class="work__year">2025</span>
+                <span class="work__role">Web Developer — ITPro</span>
+                <span class="work__type">Internship</span>
+                <span class="work__dates">Jan 2025 – Feb 2025</span>
+                <span class="work__mode">Remote</span>
+              </button>
+            </h3>
+            <div class="work__details" id="work-details-3" hidden>
+              <ul class="work__summary">
+                <li>Developed backend functionality with PHP and Laravel.</li>
+                <li>Worked on AI API integrations and fallback systems.</li>
+                <li>Learned PHP and Laravel while contributing to real projects.</li>
+              </ul>
+              <p class="work__tech">PHP · Laravel</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="work__item">
+          <article>
+            <h3 class="work__heading">
+              <button class="work__toggle" type="button" aria-expanded="false" aria-controls="work-details-4">
+                <span class="work__year">2024</span>
+                <span class="work__role">IT &amp; Network Systems Intern — Tiscali</span>
+                <span class="work__type">Internship</span>
+                <span class="work__dates">Mar 2024 – Jun 2024</span>
+                <span class="work__mode">On-site</span>
+              </button>
+            </h3>
+            <div class="work__details" id="work-details-4" hidden>
+              <ul class="work__summary">
+                <li>Worked with network infrastructure and broadband systems.</li>
+                <li>Assisted with monitoring, troubleshooting and deployment.</li>
+                <li>Worked within an international technical team.</li>
+              </ul>
+              <p class="work__tech">Network Infrastructure · TCP/IP · DNS · DHCP · Troubleshooting</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="work__item">
+          <article>
+            <h3 class="work__heading">
+              <button class="work__toggle" type="button" aria-expanded="false" aria-controls="work-details-5">
+                <span class="work__year">2022</span>
+                <span class="work__role">System Administrator — Indorama Ventures</span>
+                <span class="work__type">Internship</span>
+                <span class="work__dates">Jan 2022 – Jun 2022</span>
+                <span class="work__mode">Hybrid</span>
+              </button>
+            </h3>
+            <div class="work__details" id="work-details-5" hidden>
+              <ul class="work__summary">
+                <li>Provided L1/L2 technical support.</li>
+                <li>Worked with Active Directory and user permissions.</li>
+                <li>Assisted with network infrastructure and workstation deployment.</li>
+                <li>Worked with Linux, Bash and corporate IT systems.</li>
+              </ul>
+              <p class="work__tech">Linux · Bash · Active Directory · TCP/IP · DNS · DHCP</p>
+            </div>
+          </article>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <h2 class="section__title" id="projects-title">Projects</h2>
+
+      <!-- To add a project, copy one article and update number, title, stack, description and link -->
+      <div class="projects__list">
+        <article class="project">
+          <p class="project__number">Project 01</p>
+          <h3 class="project__title">Aegis-Quad Custom Flight Control System</h3>
+          <p class="project__stack">C++ / Embedded Systems</p>
+          <p class="project__description">Custom 32-bit flight control system written from scratch in C++. It uses a deterministic 250Hz architecture, sensor fusion and a modular hardware abstraction layer.</p>
+          <a class="project__link" href="https://github.com/javtl/Aegis-Quad" target="_blank" rel="noopener noreferrer" aria-label="View Aegis-Quad on GitHub (opens in a new tab)">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <p class="project__number">Project 02</p>
+          <h3 class="project__title">VideoGame Manager Backend API</h3>
+          <p class="project__stack">Java / Spring Boot / MongoDB / Docker</p>
+          <p class="project__description">Backend CRUD API for managing a video game library, built with Spring Boot and MongoDB, with Docker and CI/CD tooling.</p>
+          <a class="project__link" href="https://github.com/javtl/videogamemanager" target="_blank" rel="noopener noreferrer" aria-label="View VideoGame Manager on GitHub (opens in a new tab)">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <p class="project__number">Project 03</p>
+          <h3 class="project__title">NXKT Neural Identity &amp; Token Vault</h3>
+          <p class="project__stack">Kotlin / Ktor / MongoDB / Auth0</p>
+          <p class="project__description">Secure middleware for AI agents and protected identity systems. It uses a Token Vault architecture with Auth0, Kotlin, Ktor and MongoDB to enable scoped credential access without exposing master credentials.</p>
+          <a class="project__link" href="https://github.com/javtl/nexus-kt" target="_blank" rel="noopener noreferrer" aria-label="View NXKT on GitHub (opens in a new tab)">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section blog" id="blog" aria-labelledby="blog-title">
+      <h2 class="section__title" id="blog-title">Blog</h2>
+
+      <ul class="blog__list">
+        <li>
+          <article class="post">
+            <!-- Replace href with the post page, e.g. blog/first-portfolio.html -->
+            <a class="post__link" href="#blog">
+              <h3 class="post__title">Building my first personal portfolio</h3>
+              <p class="post__meta"><time datetime="2026">2026</time> · Web development</p>
+            </a>
+          </article>
+        </li>
+      </ul>
+
+      <p class="blog__note">Coming soon — more notes, experiments and things I am learning.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <h2 class="section__title" id="about-title">About</h2>
+
+      <div class="about__intro">
+        <p>I am a software developer student based in Spain, currently studying Web Application Development.</p>
+        <p>I enjoy learning by building things and exploring different areas of software engineering, from web and backend development to systems and lower-level projects.</p>
+        <p>I am interested in understanding how software works from different layers and experimenting with technologies I have not used before.</p>
+        <p>I learn by building, experimenting, breaking things and figuring out how to make them better.</p>
+      </div>
+
+      <div class="about__blocks">
+        <article class="about__block">
+          <h3 class="about__block-title"><span>01</span> — Development</h3>
+          <p class="about__block-text">Building web applications, APIs and software projects while developing my foundations as a developer.</p>
+        </article>
+        <article class="about__block">
+          <h3 class="about__block-title"><span>02</span> — Exploration</h3>
+          <p class="about__block-text">Exploring backend systems, software architecture and different layers of software engineering.</p>
+        </article>
+        <article class="about__block">
+          <h3 class="about__block-title"><span>03</span> — Learning</h3>
+          <p class="about__block-text">Learning through personal projects, experimentation and the process of figuring things out.</p>
+        </article>
+      </div>
+
+      <div class="about__outside">
+        <h3 class="about__outside-title">Outside Code</h3>
+        <ul class="about__outside-list">
+          <li>Sport</li>
+          <li>Learning languages</li>
+          <li>Reading</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="section__title" id="contact-title">Contact</h2>
+
+      <ul class="contact__list">
+        <li>
+          <span class="contact__label">GitHub</span>
+          <a href="https://github.com/javtl" target="_blank" rel="noopener noreferrer">github.com/javtl</a>
+        </li>
+        <li>
+          <span class="contact__label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/javierlsw/" target="_blank" rel="noopener noreferrer">linkedin.com/in/javierlsw</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p class="site-footer__identity">Javier L · Software Developer Student · Based in Spain</p>
+    <p class="site-footer__built">Built with HTML · CSS · JavaScript</p>
+  </footer>
+
+</body>
+</html>
